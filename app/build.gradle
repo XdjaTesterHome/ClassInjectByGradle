@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+//apply from : './classInject.gradle'
+apply plugin: 'com.xdja.inject'
+
+//buildscript {
+//    repositories {
+//        maven {
+//            //这里是发布在本地文件夹了
+//            url uri('../release')
+//        }
+//    }
+//    dependencies {
+//        classpath 'com.xdja.inject:xdjaclassinject:1.0'
+//    }
+//}
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.xdja.inject"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    testCompile 'junit:junit:4.12'
+}
+
+
+import com.xdja.inject.util.MethodLogAdapter
+import org.objectweb.asm.ClassVisitor
+import org.objectweb.asm.MethodVisitor
+import org.objectweb.asm.Opcodes
+//or you can import like bellow:
+//import org.objectweb.asm.*
+InjectParam {
+    //this will determine the name of this hibeaver transform, no practical use.
+    transformName = 'appTest'
+    keepQuiet = false
+    showHelp = true
+    watchTimeConsume = true
+
+    //this is the most important part
+    modifyMatchMaps = [
+            '*Activity': [
+                    // you can use javap -s command to get the description of one method
+                    ['methodName': 'on**', 'methodDesc': '(Landroid/os/Bundle;)V', 'adapter': {
+                        // 这里的adapter用了闭包
+                        ClassVisitor cv, int access, String name, String desc, String signature, String[] exceptions ->
+                            MethodVisitor methodVisitor = cv.visitMethod(access, name, desc, signature, exceptions);
+                            MethodVisitor adapter = new MethodLogAdapter(methodVisitor) {
+                                @Override
+                                void visitCode() {
+                                    super.visitCode();
+                                    methodVisitor.visitMethodInsn(Opcodes.INVOKESTATIC, MethodLogAdapter.className2Path("com.xdja.inject.MontiorTrace"), "log", "()V", false);
+                                }
+                            }
+                            return adapter;
+                    }]
+            ]
+    ]
+}

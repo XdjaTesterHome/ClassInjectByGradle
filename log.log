@@ -1,0 +1,1200 @@
+Parallel execution with configuration on demand is an incubating feature.
+Using the 'clean' task in combination with parallel execution may lead to unexpected runtime behavior.
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to D:\Android\sdk\ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+:applied InjectClass
+Incremental java compilation is an incubating feature.
+
+watchTimeConsume enabled
+:clean
+:app:clean
+:xdjainject:clean UP-TO-DATE
+:xdjainject:clean 花费时间 spend 0ms
+:clean 花费时间 spend 3ms
+:app:clean 花费时间 spend 450ms
+:app:preBuild UP-TO-DATE
+:app:preBuild 花费时间 spend 0ms
+:app:preDebugBuild UP-TO-DATE
+:app:preDebugBuild 花费时间 spend 1ms
+:app:checkDebugManifest
+:app:checkDebugManifest 花费时间 spend 1ms
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseBuild 花费时间 spend 0ms
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportAppcompatV72531Library 花费时间 spend 1ms
+:app:prepareComAndroidSupportConstraintConstraintLayout100Beta4Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Beta4Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCompat2531Library 花费时间 spend 1ms
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library 花费时间 spend 1ms
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportV42531Library 花费时间 spend 2ms
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library 花费时间 spend 3ms
+:app:prepareDebugDependencies
+:app:prepareDebugDependencies 花费时间 spend 0ms
+:app:compileDebugAidl
+:app:compileDebugAidl 花费时间 spend 25ms
+:app:compileDebugRenderscript
+:app:compileDebugRenderscript 花费时间 spend 6ms
+:app:generateDebugBuildConfig
+:app:generateDebugBuildConfig 花费时间 spend 8ms
+:app:generateDebugResValues
+:app:generateDebugResValues 花费时间 spend 2ms
+:app:generateDebugResources
+:app:generateDebugResources 花费时间 spend 0ms
+:app:mergeDebugResources
+:app:mergeDebugResources 花费时间 spend 995ms
+:app:processDebugManifest
+:app:processDebugManifest 花费时间 spend 65ms
+:app:processDebugResources
+:app:processDebugResources 花费时间 spend 506ms
+:app:generateDebugSources
+:app:generateDebugSources 花费时间 spend 0ms
+:app:incrementalDebugJavaCompilationSafeguard
+:app:incrementalDebugJavaCompilationSafeguard 花费时间 spend 8ms
+:app:javaPreCompileDebug
+:app:javaPreCompileDebug 花费时间 spend 1ms
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugJavaWithJavac 花费时间 spend 185ms
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugNdk 花费时间 spend 1ms
+:app:compileDebugSources
+:app:compileDebugSources 花费时间 spend 0ms
+:app:mergeDebugShaders
+:app:mergeDebugShaders 花费时间 spend 5ms
+:app:compileDebugShaders
+:app:compileDebugShaders 花费时间 spend 2ms
+:app:generateDebugAssets
+:app:generateDebugAssets 花费时间 spend 0ms
+:app:mergeDebugAssets
+:app:mergeDebugAssets 花费时间 spend 12ms
+:app:transformClassesWithXdjaInectClassForDebug
+==============injectClass appTest transform enter==============
+===============================
+===============================
+项目包含的jar包：C:\Users\zlw\.android\build-cache\c3ba1d8edba10e0e0af5c39b05289a60cb868638\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\15712bbd56c594ed9514285e230c3db17e86c6b5\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\9c6fab38b2457aa1536184f459dc920d5fb537c3\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\022d7b7f4aefc532c6ed96a511900b7fa2a8c1e1\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\469bf2e8f0a63174908fc5905d88e7561da9178a\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\ae12ce23cc9697575423ff6829df3c896bc752a4\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\17a56d4097157390dfdbeec436d905b42b68bde5\output\jars\classes.jar
+项目包含的jar包：D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\c8443fe38615332796e05aaccf96a7f4008344c4\output\jars\classes.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\3408b0b33a999103ef5942b58fa8ee0c26963859\output\jars\classes.jar
+项目包含的jar包：D:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar
+项目包含的jar包：C:\Users\zlw\.android\build-cache\5cb02c2bca7dc4fe991c665c69a7aafbfd0f74a7\output\jars\classes.jar
+===============================
+===============================
+项目包含的class文件夹：E:\github\XdjaClassInject\app\build\intermediates\classes\debug
+===============================
+====start modifying android/support/v4/app/FragmentActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v4/app/FragmentActivity	null	android/support/v4/app/BaseFragmentActivityJB	[android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback	android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator	]	
+* visitSource *	FragmentActivity.java	null	
+* visitInnerClass *	android/support/v4/app/FragmentActivity$HostCallbacks	android/support/v4/app/FragmentActivity	HostCallbacks		
+* visitInnerClass *	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/support/v4/app/FragmentActivity	NonConfigurationInstances	\ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/support/v4/app/FragmentActivity$1	null	null		
+* visitInnerClass *	android/support/annotation/RestrictTo$Scope	android/support/annotation/RestrictTo	Scope	\ACC_ENUM/ \ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/content/res/Resources$NotFoundException	android/content/res/Resources	NotFoundException	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback	android/support/v4/app/ActivityCompat	OnRequestPermissionsResultCallback	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator	android/support/v4/app/ActivityCompatApi23	RequestPermissionsRequestCodeValidator	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/content/IntentSender$SendIntentException	android/content/IntentSender	SendIntentException	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/os/Build$VERSION	android/os/Build	VERSION	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitField *	\ACC_PRIVATE/ \ACC_STATIC/ \ACC_FINAL/ 	TAG	Ljava/lang/String;	null	FragmentActivity	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	FRAGMENTS_TAG	Ljava/lang/String;	null	android:support:fragments	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	NEXT_CANDIDATE_REQUEST_INDEX_TAG	Ljava/lang/String;	null	android:support:next_request_index	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	ALLOCATED_REQUEST_INDICIES_TAG	Ljava/lang/String;	null	android:support:request_indicies	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	REQUEST_FRAGMENT_WHO_TAG	Ljava/lang/String;	null	android:support:request_fragment_who	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MAX_NUM_PENDING_FRAGMENT_ACTIVITY_RESULTS	I	null	65534	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MSG_REALLY_STOPPED	I	null	1	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MSG_RESUME_PENDING	I	null	2	
+* visitField *	\ACC_FINAL/ 	mHandler	Landroid/os/Handler;	null	null	
+* visitField *	\ACC_FINAL/ 	mFragments	Landroid/support/v4/app/FragmentController;	null	null	
+* visitField *		mCreated	Z	null	null	
+* visitField *		mResumed	Z	null	null	
+* visitField *		mStopped	Z	null	null	
+* visitField *		mReallyStopped	Z	null	null	
+* visitField *		mRetaining	Z	null	null	
+* visitField *		mOptionsMenuInvalidated	Z	null	null	
+* visitField *		mRequestedPermissionsFromFragment	Z	null	null	
+* visitField *		mNextCandidateRequestIndex	I	null	null	
+* visitField *		mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	Landroid/support/v4/util/SparseArrayCompat<Ljava/lang/String;>;	null	
+* visitMethod *	\ACC_PUBLIC/ 	<init>	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onActivityResult	(IILandroid/content/Intent;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onBackPressed	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ \ACC_FINAL/ 	setSupportMediaController	(Landroid/support/v4/media/session/MediaControllerCompat;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ \ACC_FINAL/ 	getSupportMediaController	()Landroid/support/v4/media/session/MediaControllerCompat;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportFinishAfterTransition	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setEnterSharedElementCallback	(Landroid/support/v4/app/SharedElementCallback;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setExitSharedElementCallback	(Landroid/support/v4/app/SharedElementCallback;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportPostponeEnterTransition	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportStartPostponedEnterTransition	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onMultiWindowModeChanged	(Z)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onPictureInPictureModeChanged	(Z)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onConfigurationChanged	(Landroid/content/res/Configuration;)V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L1675330279	
+visitLineNumber	317	L1675330279	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitInsn	ACONST_NULL	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	attachHost	(Landroid/support/v4/app/Fragment;)V	
+visitLabel	L685896195	
+visitLineNumber	319	L685896195	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/BaseFragmentActivityJB	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L257901251	
+visitLineNumber	321	L257901251	
+visitVarInsn	ALOAD	0	
+visitLabel	L816588149	
+visitLineNumber	322	L816588149	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentActivity	getLastNonConfigurationInstance	()Ljava/lang/Object;	
+visitTypeInsn	CHECKCAST	android/support/v4/app/FragmentActivity$NonConfigurationInstances	
+visitVarInsn	ASTORE	2	
+visitLabel	L726678561	
+visitLineNumber	323	L726678561	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L201761442	
+visitLabel	L2033889467	
+visitLineNumber	324	L2033889467	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitVarInsn	ALOAD	2	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity$NonConfigurationInstances	loaders	Landroid/support/v4/util/SimpleArrayMap;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	restoreLoaderNonConfig	(Landroid/support/v4/util/SimpleArrayMap;)V	
+visitLabel	L201761442	
+visitLineNumber	326	L201761442	
+visitFrame	1	[android/support/v4/app/FragmentActivity$NonConfigurationInstances	null	null	null	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	1	
+visitJumpInsn	IFNULL	L678212964	
+visitLabel	L41362812	
+visitLineNumber	327	L41362812	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:fragments	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getParcelable	(Ljava/lang/String;)Landroid/os/Parcelable;	
+visitVarInsn	ASTORE	3	
+visitLabel	L995984418	
+visitLineNumber	328	L995984418	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitVarInsn	ALOAD	3	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L391009434	
+visitVarInsn	ALOAD	2	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity$NonConfigurationInstances	fragments	Landroid/support/v4/app/FragmentManagerNonConfig;	
+visitJumpInsn	GOTO	L1514411138	
+visitLabel	L391009434	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	4	2	[android/support/v4/app/FragmentController	android/os/Parcelable	null	null	]	
+visitInsn	ACONST_NULL	
+visitLabel	L1514411138	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	4	3	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	restoreAllState	(Landroid/os/Parcelable;Landroid/support/v4/app/FragmentManagerNonConfig;)V	
+visitLabel	L1638106739	
+visitLineNumber	331	L1638106739	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	containsKey	(Ljava/lang/String;)Z	
+visitJumpInsn	IFEQ	L678212964	
+visitLabel	L906523377	
+visitLineNumber	332	L906523377	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitLabel	L1392974382	
+visitLineNumber	333	L1392974382	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getInt	(Ljava/lang/String;)I	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitLabel	L698213576	
+visitLineNumber	334	L698213576	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_indicies	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getIntArray	(Ljava/lang/String;)[I	
+visitVarInsn	ASTORE	4	
+visitLabel	L1425047446	
+visitLineNumber	335	L1425047446	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_fragment_who	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getStringArray	(Ljava/lang/String;)[Ljava/lang/String;	
+visitVarInsn	ASTORE	5	
+visitLabel	L555356163	
+visitLineNumber	336	L555356163	
+visitVarInsn	ALOAD	4	
+visitJumpInsn	IFNULL	L1244112996	
+visitVarInsn	ALOAD	5	
+visitJumpInsn	IFNULL	L1244112996	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitVarInsn	ALOAD	5	
+visitInsn	ARRAYLENGTH	
+visitJumpInsn	IF_ICMPEQ	L215658060	
+visitLabel	L1244112996	
+visitLineNumber	338	L1244112996	
+visitFrame	1	[[I	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	2	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitLdcInsn	FragmentActivity	
+visitLdcInsn	Invalid requestCode mapping in savedInstanceState.	
+visitMethodInsn	INVOKESTATIC	android/util/Log	w	(Ljava/lang/String;Ljava/lang/String;)I	
+visitInsn	POP	
+visitJumpInsn	GOTO	L678212964	
+visitLabel	L215658060	
+visitLineNumber	340	L215658060	
+visitFrame	3	[[I	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	0	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitTypeInsn	NEW	android/support/v4/util/SparseArrayCompat	
+visitInsn	DUP	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/util/SparseArrayCompat	<init>	(I)V	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitLabel	L1526824078	
+visitLineNumber	341	L1526824078	
+visitInsn	ICONST_0	
+visitVarInsn	ISTORE	6	
+visitLabel	L711648741	
+visitFrame	1	[1	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	1	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ILOAD	6	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitJumpInsn	IF_ICMPGE	L678212964	
+visitLabel	L1576606788	
+visitLineNumber	342	L1576606788	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ALOAD	4	
+visitVarInsn	ILOAD	6	
+visitInsn	IALOAD	
+visitVarInsn	ALOAD	5	
+visitVarInsn	ILOAD	6	
+visitInsn	AALOAD	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	put	(ILjava/lang/Object;)V	
+visitLabel	L67662201	
+visitLineNumber	341	L67662201	
+visitIincInsn	6	1	
+visitJumpInsn	GOTO	L711648741	
+visitLabel	L678212964	
+visitLineNumber	348	L678212964	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	3	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitJumpInsn	IFNONNULL	L1421711482	
+visitLabel	L688200389	
+visitLineNumber	349	L688200389	
+visitVarInsn	ALOAD	0	
+visitTypeInsn	NEW	android/support/v4/util/SparseArrayCompat	
+visitInsn	DUP	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/util/SparseArrayCompat	<init>	()V	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitLabel	L1015752861	
+visitLineNumber	350	L1015752861	
+visitVarInsn	ALOAD	0	
+visitInsn	ICONST_0	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitLabel	L1421711482	
+visitLineNumber	353	L1421711482	
+visitFrame	3	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	0	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	dispatchCreate	()V	
+visitLabel	L2068780492	
+visitLineNumber	354	L2068780492	
+visitInsn	RETURN	
+visitLabel	L1133063319	
+visitLocalVariable	i	I	null	L711648741	L678212964	6	
+visitLocalVariable	requestCodes	[I	null	L1425047446	L678212964	4	
+visitLocalVariable	fragmentWhos	[Ljava/lang/String;	null	L555356163	L678212964	5	
+visitLocalVariable	p	Landroid/os/Parcelable;	null	L995984418	L678212964	3	
+visitLocalVariable	this	Landroid/support/v4/app/FragmentActivity;	null	L1675330279	L1133063319	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1675330279	L1133063319	1	
+visitLocalVariable	nc	Landroid/support/v4/app/FragmentActivity$NonConfigurationInstances;	null	L726678561	L1133063319	2	
+visitMaxs	4	7	
+visitEnd
+* visitMethod *	\ACC_PUBLIC/ 	onCreatePanelMenu	(ILandroid/view/Menu;)Z	null	null	
+* visitMethod *	\ACC_FINAL/ 	dispatchFragmentsOnCreateView	(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onDestroy	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onLowMemory	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onMenuItemSelected	(ILandroid/view/MenuItem;)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onPanelClosed	(ILandroid/view/Menu;)V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onPause	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onNewIntent	(Landroid/content/Intent;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onStateNotSaved	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onResume	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onPostResume	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onResumeFragments	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onPreparePanel	(ILandroid/view/View;Landroid/view/Menu;)Z	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onPrepareOptionsPanel	(Landroid/view/View;Landroid/view/Menu;)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_FINAL/ 	onRetainNonConfigurationInstance	()Ljava/lang/Object;	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onSaveInstanceState	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L613630528	
+visitLineNumber	570	L613630528	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/BaseFragmentActivityJB	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L787759057	
+visitLineNumber	571	L787759057	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	saveAllState	()Landroid/os/Parcelable;	
+visitVarInsn	ASTORE	2	
+visitLabel	L840631363	
+visitLineNumber	572	L840631363	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L458459517	
+visitLabel	L627857685	
+visitLineNumber	573	L627857685	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:fragments	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putParcelable	(Ljava/lang/String;Landroid/os/Parcelable;)V	
+visitLabel	L458459517	
+visitLineNumber	575	L458459517	
+visitFrame	1	[android/os/Parcelable	null	null	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitJumpInsn	IFLE	L711581918	
+visitLabel	L1085980876	
+visitLineNumber	576	L1085980876	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putInt	(Ljava/lang/String;I)V	
+visitLabel	L1202037191	
+visitLineNumber	578	L1202037191	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitIntInsn	188	10	
+visitVarInsn	ASTORE	3	
+visitLabel	L4648151	
+visitLineNumber	579	L4648151	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitTypeInsn	ANEWARRAY	java/lang/String	
+visitVarInsn	ASTORE	4	
+visitLabel	L1699513105	
+visitLineNumber	580	L1699513105	
+visitInsn	ICONST_0	
+visitVarInsn	ISTORE	5	
+visitLabel	L1944486868	
+visitFrame	1	[[I	[Ljava/lang/String;	1	null	null	null	]	3	0	[null	null	null	null	]	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitJumpInsn	IF_ICMPGE	L430419958	
+visitLabel	L774953025	
+visitLineNumber	581	L774953025	
+visitVarInsn	ALOAD	3	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ILOAD	5	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	keyAt	(I)I	
+visitInsn	IASTORE	
+visitLabel	L803574429	
+visitLineNumber	582	L803574429	
+visitVarInsn	ALOAD	4	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ILOAD	5	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	valueAt	(I)Ljava/lang/Object;	
+visitTypeInsn	CHECKCAST	java/lang/String	
+visitInsn	AASTORE	
+visitLabel	L1759136918	
+visitLineNumber	580	L1759136918	
+visitIincInsn	5	1	
+visitJumpInsn	GOTO	L1944486868	
+visitLabel	L430419958	
+visitLineNumber	584	L430419958	
+visitFrame	2	[[I	[Ljava/lang/String;	1	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_indicies	
+visitVarInsn	ALOAD	3	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putIntArray	(Ljava/lang/String;[I)V	
+visitLabel	L1277597284	
+visitLineNumber	585	L1277597284	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_fragment_who	
+visitVarInsn	ALOAD	4	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putStringArray	(Ljava/lang/String;[Ljava/lang/String;)V	
+visitLabel	L711581918	
+visitLineNumber	587	L711581918	
+visitFrame	2	[[I	[Ljava/lang/String;	1	null	null	null	]	2	0	[null	null	null	null	]	
+visitInsn	RETURN	
+visitLabel	L1694281073	
+visitLocalVariable	i	I	null	L1944486868	L430419958	5	
+visitLocalVariable	requestCodes	[I	null	L4648151	L711581918	3	
+visitLocalVariable	fragmentWhos	[Ljava/lang/String;	null	L1699513105	L711581918	4	
+visitLocalVariable	this	Landroid/support/v4/app/FragmentActivity;	null	L613630528	L1694281073	0	
+visitLocalVariable	outState	Landroid/os/Bundle;	null	L613630528	L1694281073	1	
+visitLocalVariable	p	Landroid/os/Parcelable;	null	L840631363	L1694281073	2	
+visitMaxs	4	6	
+visitEnd
+* visitMethod *	\ACC_PROTECTED/ 	onStart	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onStop	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onRetainCustomNonConfigurationInstance	()Ljava/lang/Object;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getLastCustomNonConfigurationInstance	()Ljava/lang/Object;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportInvalidateOptionsMenu	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	dump	(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V	null	null	
+* visitMethod *	\ACC_PRIVATE/ \ACC_STATIC/ 	viewToString	(Landroid/view/View;)Ljava/lang/String;	null	null	
+* visitMethod *	\ACC_PRIVATE/ 	dumpViewHierarchy	(Ljava/lang/String;Ljava/io/PrintWriter;Landroid/view/View;)V	null	null	
+* visitMethod *		doReallyStop	(Z)V	null	null	
+* visitMethod *		onReallyStop	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onAttachFragment	(Landroid/support/v4/app/Fragment;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getSupportFragmentManager	()Landroid/support/v4/app/FragmentManager;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getSupportLoaderManager	()Landroid/support/v4/app/LoaderManager;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	startActivityForResult	(Landroid/content/Intent;I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_FINAL/ 	validateRequestPermissionsRequestCode	(I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onRequestPermissionsResult	(I[Ljava/lang/String;[I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	startActivityFromFragment	(Landroid/support/v4/app/Fragment;Landroid/content/Intent;I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	startActivityFromFragment	(Landroid/support/v4/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	startIntentSenderFromFragment	(Landroid/support/v4/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V	null	[android/content/IntentSender$SendIntentException	]	
+* visitMethod *	\ACC_PRIVATE/ 	allocateRequestIndex	(Landroid/support/v4/app/Fragment;)I	null	null	
+* visitMethod *		requestPermissionsFromFragment	(Landroid/support/v4/app/Fragment;[Ljava/lang/String;I)V	null	null	
+* visitMethod *	\ACC_BRIDGE/ \ACC_SYNTHETIC/ \ACC_PUBLIC/ 	startIntentSenderForResult	(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V	null	[android/content/IntentSender$SendIntentException	]	
+* visitMethod *	\ACC_BRIDGE/ \ACC_SYNTHETIC/ \ACC_PUBLIC/ 	startActivityForResult	(Landroid/content/Intent;ILandroid/os/Bundle;)V	null	null	
+* visitMethod *	\ACC_BRIDGE/ \ACC_SYNTHETIC/ \ACC_PUBLIC/ 	onCreateView	(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;	null	null	
+* visitMethod *	\ACC_BRIDGE/ \ACC_SYNTHETIC/ \ACC_PUBLIC/ 	startIntentSenderForResult	(Landroid/content/IntentSender;ILandroid/content/Intent;III)V	null	[android/content/IntentSender$SendIntentException	]	
+* visitMethod *	\ACC_BRIDGE/ \ACC_SYNTHETIC/ \ACC_PUBLIC/ 	onCreateView	(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;	null	null	
+* visitEnd *	
+====revisit modified android/support/v4/app/FragmentActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v4/app/FragmentActivity	null	android/support/v4/app/BaseFragmentActivityJB	[android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback	android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator	]	
+* visitSource *	FragmentActivity.java	null	
+* visitInnerClass *	android/support/v4/app/FragmentActivity$HostCallbacks	android/support/v4/app/FragmentActivity	HostCallbacks		
+* visitInnerClass *	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/support/v4/app/FragmentActivity	NonConfigurationInstances	\ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/support/v4/app/FragmentActivity$1	null	null		
+* visitInnerClass *	android/support/annotation/RestrictTo$Scope	android/support/annotation/RestrictTo	Scope	\ACC_ENUM/ \ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/content/res/Resources$NotFoundException	android/content/res/Resources	NotFoundException	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback	android/support/v4/app/ActivityCompat	OnRequestPermissionsResultCallback	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v4/app/ActivityCompatApi23$RequestPermissionsRequestCodeValidator	android/support/v4/app/ActivityCompatApi23	RequestPermissionsRequestCodeValidator	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/content/IntentSender$SendIntentException	android/content/IntentSender	SendIntentException	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/os/Build$VERSION	android/os/Build	VERSION	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitField *	\ACC_PRIVATE/ \ACC_STATIC/ \ACC_FINAL/ 	TAG	Ljava/lang/String;	null	FragmentActivity	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	FRAGMENTS_TAG	Ljava/lang/String;	null	android:support:fragments	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	NEXT_CANDIDATE_REQUEST_INDEX_TAG	Ljava/lang/String;	null	android:support:next_request_index	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	ALLOCATED_REQUEST_INDICIES_TAG	Ljava/lang/String;	null	android:support:request_indicies	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	REQUEST_FRAGMENT_WHO_TAG	Ljava/lang/String;	null	android:support:request_fragment_who	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MAX_NUM_PENDING_FRAGMENT_ACTIVITY_RESULTS	I	null	65534	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MSG_REALLY_STOPPED	I	null	1	
+* visitField *	\ACC_STATIC/ \ACC_FINAL/ 	MSG_RESUME_PENDING	I	null	2	
+* visitField *	\ACC_FINAL/ 	mHandler	Landroid/os/Handler;	null	null	
+* visitField *	\ACC_FINAL/ 	mFragments	Landroid/support/v4/app/FragmentController;	null	null	
+* visitField *		mCreated	Z	null	null	
+* visitField *		mResumed	Z	null	null	
+* visitField *		mStopped	Z	null	null	
+* visitField *		mReallyStopped	Z	null	null	
+* visitField *		mRetaining	Z	null	null	
+* visitField *		mOptionsMenuInvalidated	Z	null	null	
+* visitField *		mRequestedPermissionsFromFragment	Z	null	null	
+* visitField *		mNextCandidateRequestIndex	I	null	null	
+* visitField *		mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	Landroid/support/v4/util/SparseArrayCompat<Ljava/lang/String;>;	null	
+* revisitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L627563745	
+visitLineNumber	317	L627563745	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitInsn	ACONST_NULL	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	attachHost	(Landroid/support/v4/app/Fragment;)V	
+visitLabel	L619801113	
+visitLineNumber	319	L619801113	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/BaseFragmentActivityJB	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L910017148	
+visitLineNumber	321	L910017148	
+visitVarInsn	ALOAD	0	
+visitLabel	L1016696413	
+visitLineNumber	322	L1016696413	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentActivity	getLastNonConfigurationInstance	()Ljava/lang/Object;	
+visitTypeInsn	CHECKCAST	android/support/v4/app/FragmentActivity$NonConfigurationInstances	
+visitVarInsn	ASTORE	2	
+visitLabel	L654499323	
+visitLineNumber	323	L654499323	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L135060128	
+visitLabel	L1350223871	
+visitLineNumber	324	L1350223871	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitVarInsn	ALOAD	2	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity$NonConfigurationInstances	loaders	Landroid/support/v4/util/SimpleArrayMap;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	restoreLoaderNonConfig	(Landroid/support/v4/util/SimpleArrayMap;)V	
+visitLabel	L135060128	
+visitLineNumber	326	L135060128	
+visitFrame	1	[android/support/v4/app/FragmentActivity$NonConfigurationInstances	null	null	null	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	1	
+visitJumpInsn	IFNULL	L543248587	
+visitLabel	L297647161	
+visitLineNumber	327	L297647161	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:fragments	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getParcelable	(Ljava/lang/String;)Landroid/os/Parcelable;	
+visitVarInsn	ASTORE	3	
+visitLabel	L2139798900	
+visitLineNumber	328	L2139798900	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitVarInsn	ALOAD	3	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L2043271237	
+visitVarInsn	ALOAD	2	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity$NonConfigurationInstances	fragments	Landroid/support/v4/app/FragmentManagerNonConfig;	
+visitJumpInsn	GOTO	L1392781503	
+visitLabel	L2043271237	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	4	2	[android/support/v4/app/FragmentController	android/os/Parcelable	null	null	]	
+visitInsn	ACONST_NULL	
+visitLabel	L1392781503	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	4	3	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	restoreAllState	(Landroid/os/Parcelable;Landroid/support/v4/app/FragmentManagerNonConfig;)V	
+visitLabel	L799283858	
+visitLineNumber	331	L799283858	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	containsKey	(Ljava/lang/String;)Z	
+visitJumpInsn	IFEQ	L543248587	
+visitLabel	L91185935	
+visitLineNumber	332	L91185935	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitLabel	L852723735	
+visitLineNumber	333	L852723735	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getInt	(Ljava/lang/String;)I	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitLabel	L1080041250	
+visitLineNumber	334	L1080041250	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_indicies	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getIntArray	(Ljava/lang/String;)[I	
+visitVarInsn	ASTORE	4	
+visitLabel	L1327496502	
+visitLineNumber	335	L1327496502	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_fragment_who	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	getStringArray	(Ljava/lang/String;)[Ljava/lang/String;	
+visitVarInsn	ASTORE	5	
+visitLabel	L831948993	
+visitLineNumber	336	L831948993	
+visitVarInsn	ALOAD	4	
+visitJumpInsn	IFNULL	L531312084	
+visitVarInsn	ALOAD	5	
+visitJumpInsn	IFNULL	L531312084	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitVarInsn	ALOAD	5	
+visitInsn	ARRAYLENGTH	
+visitJumpInsn	IF_ICMPEQ	L1609738252	
+visitLabel	L531312084	
+visitLineNumber	338	L531312084	
+visitFrame	1	[[I	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	2	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitLdcInsn	FragmentActivity	
+visitLdcInsn	Invalid requestCode mapping in savedInstanceState.	
+visitMethodInsn	INVOKESTATIC	android/util/Log	w	(Ljava/lang/String;Ljava/lang/String;)I	
+visitInsn	POP	
+visitJumpInsn	GOTO	L543248587	
+visitLabel	L1609738252	
+visitLineNumber	340	L1609738252	
+visitFrame	3	[[I	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	0	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitTypeInsn	NEW	android/support/v4/util/SparseArrayCompat	
+visitInsn	DUP	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/util/SparseArrayCompat	<init>	(I)V	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitLabel	L1865685129	
+visitLineNumber	341	L1865685129	
+visitInsn	ICONST_0	
+visitVarInsn	ISTORE	6	
+visitLabel	L1784759598	
+visitFrame	1	[1	[Ljava/lang/String;	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	1	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ILOAD	6	
+visitVarInsn	ALOAD	4	
+visitInsn	ARRAYLENGTH	
+visitJumpInsn	IF_ICMPGE	L543248587	
+visitLabel	L744624187	
+visitLineNumber	342	L744624187	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ALOAD	4	
+visitVarInsn	ILOAD	6	
+visitInsn	IALOAD	
+visitVarInsn	ALOAD	5	
+visitVarInsn	ILOAD	6	
+visitInsn	AALOAD	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	put	(ILjava/lang/Object;)V	
+visitLabel	L1713008499	
+visitLineNumber	341	L1713008499	
+visitIincInsn	6	1	
+visitJumpInsn	GOTO	L1784759598	
+visitLabel	L543248587	
+visitLineNumber	348	L543248587	
+visitFrame	0	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	3	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitJumpInsn	IFNONNULL	L690344809	
+visitLabel	L1234021206	
+visitLineNumber	349	L1234021206	
+visitVarInsn	ALOAD	0	
+visitTypeInsn	NEW	android/support/v4/util/SparseArrayCompat	
+visitInsn	DUP	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/util/SparseArrayCompat	<init>	()V	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitLabel	L1968347540	
+visitLineNumber	350	L1968347540	
+visitVarInsn	ALOAD	0	
+visitInsn	ICONST_0	
+visitFieldInsn	PUTFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitLabel	L690344809	
+visitLineNumber	353	L690344809	
+visitFrame	3	[android/support/v4/app/FragmentActivity	android/os/Bundle	android/support/v4/app/FragmentActivity$NonConfigurationInstances	android/os/Parcelable	null	null	null	]	0	0	[android/support/v4/app/FragmentController	android/os/Parcelable	android/support/v4/app/FragmentManagerNonConfig	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	dispatchCreate	()V	
+visitLabel	L1074139578	
+visitLineNumber	354	L1074139578	
+visitInsn	RETURN	
+visitLabel	L1203711048	
+visitLocalVariable	i	I	null	L1784759598	L543248587	6	
+visitLocalVariable	requestCodes	[I	null	L1327496502	L543248587	4	
+visitLocalVariable	fragmentWhos	[Ljava/lang/String;	null	L831948993	L543248587	5	
+visitLocalVariable	p	Landroid/os/Parcelable;	null	L2139798900	L543248587	3	
+visitLocalVariable	this	Landroid/support/v4/app/FragmentActivity;	null	L627563745	L1203711048	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L627563745	L1203711048	1	
+visitLocalVariable	nc	Landroid/support/v4/app/FragmentActivity$NonConfigurationInstances;	null	L654499323	L1203711048	2	
+visitMaxs	4	7	
+visitEnd
+* revisitMethod *	\ACC_PROTECTED/ 	onSaveInstanceState	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L1674377458	
+visitLineNumber	570	L1674377458	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/BaseFragmentActivityJB	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L36918054	
+visitLineNumber	571	L36918054	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mFragments	Landroid/support/v4/app/FragmentController;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/app/FragmentController	saveAllState	()Landroid/os/Parcelable;	
+visitVarInsn	ASTORE	2	
+visitLabel	L1917327643	
+visitLineNumber	572	L1917327643	
+visitVarInsn	ALOAD	2	
+visitJumpInsn	IFNULL	L1286321782	
+visitLabel	L1218759801	
+visitLineNumber	573	L1218759801	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:fragments	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putParcelable	(Ljava/lang/String;Landroid/os/Parcelable;)V	
+visitLabel	L1286321782	
+visitLineNumber	575	L1286321782	
+visitFrame	1	[android/os/Parcelable	null	null	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitJumpInsn	IFLE	L1352014888	
+visitLabel	L1654937568	
+visitLineNumber	576	L1654937568	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:next_request_index	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mNextCandidateRequestIndex	I	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putInt	(Ljava/lang/String;I)V	
+visitLabel	L1932350916	
+visitLineNumber	578	L1932350916	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitIntInsn	188	10	
+visitVarInsn	ASTORE	3	
+visitLabel	L486840540	
+visitLineNumber	579	L486840540	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitTypeInsn	ANEWARRAY	java/lang/String	
+visitVarInsn	ASTORE	4	
+visitLabel	L2106826760	
+visitLineNumber	580	L2106826760	
+visitInsn	ICONST_0	
+visitVarInsn	ISTORE	5	
+visitLabel	L1028186893	
+visitFrame	1	[[I	[Ljava/lang/String;	1	null	null	null	]	3	0	[null	null	null	null	]	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	size	()I	
+visitJumpInsn	IF_ICMPGE	L617742869	
+visitLabel	L497658923	
+visitLineNumber	581	L497658923	
+visitVarInsn	ALOAD	3	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ILOAD	5	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	keyAt	(I)I	
+visitInsn	IASTORE	
+visitLabel	L2111495286	
+visitLineNumber	582	L2111495286	
+visitVarInsn	ALOAD	4	
+visitVarInsn	ILOAD	5	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v4/app/FragmentActivity	mPendingFragmentActivityResults	Landroid/support/v4/util/SparseArrayCompat;	
+visitVarInsn	ILOAD	5	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v4/util/SparseArrayCompat	valueAt	(I)Ljava/lang/Object;	
+visitTypeInsn	CHECKCAST	java/lang/String	
+visitInsn	AASTORE	
+visitLabel	L124786763	
+visitLineNumber	580	L124786763	
+visitIincInsn	5	1	
+visitJumpInsn	GOTO	L1028186893	
+visitLabel	L617742869	
+visitLineNumber	584	L617742869	
+visitFrame	2	[[I	[Ljava/lang/String;	1	null	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_indicies	
+visitVarInsn	ALOAD	3	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putIntArray	(Ljava/lang/String;[I)V	
+visitLabel	L864448538	
+visitLineNumber	585	L864448538	
+visitVarInsn	ALOAD	1	
+visitLdcInsn	android:support:request_fragment_who	
+visitVarInsn	ALOAD	4	
+visitMethodInsn	INVOKEVIRTUAL	android/os/Bundle	putStringArray	(Ljava/lang/String;[Ljava/lang/String;)V	
+visitLabel	L1352014888	
+visitLineNumber	587	L1352014888	
+visitFrame	2	[[I	[Ljava/lang/String;	1	null	null	null	]	2	0	[null	null	null	null	]	
+visitInsn	RETURN	
+visitLabel	L1662929589	
+visitLocalVariable	i	I	null	L1028186893	L617742869	5	
+visitLocalVariable	requestCodes	[I	null	L486840540	L1352014888	3	
+visitLocalVariable	fragmentWhos	[Ljava/lang/String;	null	L2106826760	L1352014888	4	
+visitLocalVariable	this	Landroid/support/v4/app/FragmentActivity;	null	L1674377458	L1662929589	0	
+visitLocalVariable	outState	Landroid/os/Bundle;	null	L1674377458	L1662929589	1	
+visitLocalVariable	p	Landroid/os/Parcelable;	null	L1917327643	L1662929589	2	
+visitMaxs	4	6	
+visitEnd
+* visitEnd *	
+====finish modifying android/support/v4/app/FragmentActivity====
+====start modifying android/support/v7/app/AppCompatActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v7/app/AppCompatActivity	null	android/support/v4/app/FragmentActivity	[android/support/v7/app/AppCompatCallback	android/support/v4/app/TaskStackBuilder$SupportParentable	android/support/v7/app/ActionBarDrawerToggle$DelegateProvider	]	
+* visitSource *	AppCompatActivity.java	null	
+* visitInnerClass *	android/view/ViewGroup$LayoutParams	android/view/ViewGroup	LayoutParams	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/view/ActionMode$Callback	android/support/v7/view/ActionMode	Callback	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/app/ActionBarDrawerToggle$Delegate	android/support/v7/app/ActionBarDrawerToggle	Delegate	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/R$id	android/R	id	\ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/support/v4/app/TaskStackBuilder$SupportParentable	android/support/v4/app/TaskStackBuilder	SupportParentable	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/app/ActionBarDrawerToggle$DelegateProvider	android/support/v7/app/ActionBarDrawerToggle	DelegateProvider	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/os/Build$VERSION	android/os/Build	VERSION	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/content/res/Resources$Theme	android/content/res/Resources	Theme	\ACC_PUBLIC/ \ACC_FINAL/ 	
+* visitField *	\ACC_PRIVATE/ 	mDelegate	Landroid/support/v7/app/AppCompatDelegate;	null	null	
+* visitField *	\ACC_PRIVATE/ 	mThemeId	I	null	null	
+* visitField *	\ACC_PRIVATE/ 	mEatKeyUpEvent	Z	null	null	
+* visitField *	\ACC_PRIVATE/ 	mResources	Landroid/content/res/Resources;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	<init>	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L791532195	
+visitLineNumber	71	L791532195	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ASTORE	2	
+visitLabel	L699771206	
+visitLineNumber	72	L699771206	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	installViewFactory	()V	
+visitLabel	L327409208	
+visitLineNumber	73	L327409208	
+visitVarInsn	ALOAD	2	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L2079727596	
+visitLineNumber	74	L2079727596	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	applyDayNight	()Z	
+visitJumpInsn	IFEQ	L974091003	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitJumpInsn	IFEQ	L974091003	
+visitLabel	L1056179045	
+visitLineNumber	79	L1056179045	
+visitFieldInsn	GETSTATIC	android/os/Build$VERSION	SDK_INT	I	
+visitIntInsn	16	23	
+visitJumpInsn	IF_ICMPLT	L856389789	
+visitLabel	L2018052207	
+visitLineNumber	80	L2018052207	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getTheme	()Landroid/content/res/Resources$Theme;	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitInsn	ICONST_0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	onApplyThemeResource	(Landroid/content/res/Resources$Theme;IZ)V	
+visitJumpInsn	GOTO	L974091003	
+visitLabel	L856389789	
+visitLineNumber	82	L856389789	
+visitFrame	1	[android/support/v7/app/AppCompatDelegate	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	setTheme	(I)V	
+visitLabel	L974091003	
+visitLineNumber	85	L974091003	
+visitFrame	3	[android/support/v7/app/AppCompatDelegate	null	null	]	0	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L957363511	
+visitLineNumber	86	L957363511	
+visitInsn	RETURN	
+visitLabel	L669115995	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L791532195	L669115995	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L791532195	L669115995	1	
+visitLocalVariable	delegate	Landroid/support/v7/app/AppCompatDelegate;	null	L699771206	L669115995	2	
+visitMaxs	4	3	
+visitEnd
+* visitMethod *	\ACC_PUBLIC/ 	setTheme	(I)V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onPostCreate	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L1330032042	
+visitLineNumber	97	L1330032042	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onPostCreate	(Landroid/os/Bundle;)V	
+visitLabel	L2138885725	
+visitLineNumber	98	L2138885725	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onPostCreate	(Landroid/os/Bundle;)V	
+visitLabel	L1207821576	
+visitLineNumber	99	L1207821576	
+visitInsn	RETURN	
+visitLabel	L1871057042	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L1330032042	L1871057042	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1330032042	L1871057042	1	
+visitMaxs	2	2	
+visitEnd
+* visitMethod *	\ACC_PUBLIC/ 	getSupportActionBar	()Landroid/support/v7/app/ActionBar;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setSupportActionBar	(Landroid/support/v7/widget/Toolbar;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getMenuInflater	()Landroid/view/MenuInflater;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setContentView	(I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setContentView	(Landroid/view/View;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	setContentView	(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	addContentView	(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onConfigurationChanged	(Landroid/content/res/Configuration;)V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onPostResume	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onStart	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onStop	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	findViewById	(I)Landroid/view/View;	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_FINAL/ 	onMenuItemSelected	(ILandroid/view/MenuItem;)Z	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onDestroy	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onTitleChanged	(Ljava/lang/CharSequence;I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportRequestWindowFeature	(I)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportInvalidateOptionsMenu	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	invalidateOptionsMenu	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onSupportActionModeStarted	(Landroid/support/v7/view/ActionMode;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onSupportActionModeFinished	(Landroid/support/v7/view/ActionMode;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onWindowStartingSupportActionMode	(Landroid/support/v7/view/ActionMode$Callback;)Landroid/support/v7/view/ActionMode;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	startSupportActionMode	(Landroid/support/v7/view/ActionMode$Callback;)Landroid/support/v7/view/ActionMode;	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ 	setSupportProgressBarVisibility	(Z)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ 	setSupportProgressBarIndeterminateVisibility	(Z)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ 	setSupportProgressBarIndeterminate	(Z)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ 	setSupportProgress	(I)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onCreateSupportNavigateUpTaskStack	(Landroid/support/v4/app/TaskStackBuilder;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onPrepareSupportNavigateUpTaskStack	(Landroid/support/v4/app/TaskStackBuilder;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onSupportNavigateUp	()Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getSupportParentActivityIntent	()Landroid/content/Intent;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportShouldUpRecreateTask	(Landroid/content/Intent;)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	supportNavigateUpTo	(Landroid/content/Intent;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onContentChanged	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ \ACC_DEPRECATED/ 	onSupportContentChanged	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getDrawerToggleDelegate	()Landroid/support/v7/app/ActionBarDrawerToggle$Delegate;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onMenuOpened	(ILandroid/view/Menu;)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	onPanelClosed	(ILandroid/view/Menu;)V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onSaveInstanceState	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L358075189	
+visitLineNumber	509	L358075189	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L205582820	
+visitLineNumber	510	L205582820	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L616403137	
+visitLineNumber	511	L616403137	
+visitInsn	RETURN	
+visitLabel	L2078279236	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L358075189	L2078279236	0	
+visitLocalVariable	outState	Landroid/os/Bundle;	null	L358075189	L2078279236	1	
+visitMaxs	2	2	
+visitEnd
+* visitMethod *	\ACC_PUBLIC/ 	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	dispatchKeyEvent	(Landroid/view/KeyEvent;)Z	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getResources	()Landroid/content/res/Resources;	null	null	
+* visitEnd *	
+====revisit modified android/support/v7/app/AppCompatActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v7/app/AppCompatActivity	null	android/support/v4/app/FragmentActivity	[android/support/v7/app/AppCompatCallback	android/support/v4/app/TaskStackBuilder$SupportParentable	android/support/v7/app/ActionBarDrawerToggle$DelegateProvider	]	
+* visitSource *	AppCompatActivity.java	null	
+* visitInnerClass *	android/view/ViewGroup$LayoutParams	android/view/ViewGroup	LayoutParams	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/view/ActionMode$Callback	android/support/v7/view/ActionMode	Callback	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/app/ActionBarDrawerToggle$Delegate	android/support/v7/app/ActionBarDrawerToggle	Delegate	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/R$id	android/R	id	\ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitInnerClass *	android/support/v4/app/TaskStackBuilder$SupportParentable	android/support/v4/app/TaskStackBuilder	SupportParentable	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/v7/app/ActionBarDrawerToggle$DelegateProvider	android/support/v7/app/ActionBarDrawerToggle	DelegateProvider	\ACC_ABSTRACT/ \ACC_INTERFACE/ \ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/os/Build$VERSION	android/os/Build	VERSION	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/content/res/Resources$Theme	android/content/res/Resources	Theme	\ACC_PUBLIC/ \ACC_FINAL/ 	
+* visitField *	\ACC_PRIVATE/ 	mDelegate	Landroid/support/v7/app/AppCompatDelegate;	null	null	
+* visitField *	\ACC_PRIVATE/ 	mThemeId	I	null	null	
+* visitField *	\ACC_PRIVATE/ 	mEatKeyUpEvent	Z	null	null	
+* visitField *	\ACC_PRIVATE/ 	mResources	Landroid/content/res/Resources;	null	null	
+* revisitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L1535209539	
+visitLineNumber	71	L1535209539	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ASTORE	2	
+visitLabel	L334682218	
+visitLineNumber	72	L334682218	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	installViewFactory	()V	
+visitLabel	L1759194742	
+visitLineNumber	73	L1759194742	
+visitVarInsn	ALOAD	2	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L323375367	
+visitLineNumber	74	L323375367	
+visitVarInsn	ALOAD	2	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	applyDayNight	()Z	
+visitJumpInsn	IFEQ	L1125464132	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitJumpInsn	IFEQ	L1125464132	
+visitLabel	L1184991684	
+visitLineNumber	79	L1184991684	
+visitFieldInsn	GETSTATIC	android/os/Build$VERSION	SDK_INT	I	
+visitIntInsn	16	23	
+visitJumpInsn	IF_ICMPLT	L2000201720	
+visitLabel	L1456938609	
+visitLineNumber	80	L1456938609	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getTheme	()Landroid/content/res/Resources$Theme;	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitInsn	ICONST_0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	onApplyThemeResource	(Landroid/content/res/Resources$Theme;IZ)V	
+visitJumpInsn	GOTO	L1125464132	
+visitLabel	L2000201720	
+visitLineNumber	82	L2000201720	
+visitFrame	1	[android/support/v7/app/AppCompatDelegate	null	null	]	1	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	0	
+visitFieldInsn	GETFIELD	android/support/v7/app/AppCompatActivity	mThemeId	I	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	setTheme	(I)V	
+visitLabel	L1125464132	
+visitLineNumber	85	L1125464132	
+visitFrame	3	[android/support/v7/app/AppCompatDelegate	null	null	]	0	0	[null	null	null	null	]	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L1022020599	
+visitLineNumber	86	L1022020599	
+visitInsn	RETURN	
+visitLabel	L1993312775	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L1535209539	L1993312775	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1535209539	L1993312775	1	
+visitLocalVariable	delegate	Landroid/support/v7/app/AppCompatDelegate;	null	L334682218	L1993312775	2	
+visitMaxs	4	3	
+visitEnd
+* revisitMethod *	\ACC_PROTECTED/ 	onPostCreate	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L1157297217	
+visitLineNumber	97	L1157297217	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onPostCreate	(Landroid/os/Bundle;)V	
+visitLabel	L716201529	
+visitLineNumber	98	L716201529	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onPostCreate	(Landroid/os/Bundle;)V	
+visitLabel	L1081052651	
+visitLineNumber	99	L1081052651	
+visitInsn	RETURN	
+visitLabel	L1249556563	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L1157297217	L1249556563	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1157297217	L1249556563	1	
+visitMaxs	2	2	
+visitEnd
+* revisitMethod *	\ACC_PROTECTED/ 	onSaveInstanceState	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L1496389025	
+visitLineNumber	509	L1496389025	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v4/app/FragmentActivity	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L1901644072	
+visitLineNumber	510	L1901644072	
+visitVarInsn	ALOAD	0	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatActivity	getDelegate	()Landroid/support/v7/app/AppCompatDelegate;	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKEVIRTUAL	android/support/v7/app/AppCompatDelegate	onSaveInstanceState	(Landroid/os/Bundle;)V	
+visitLabel	L1306792509	
+visitLineNumber	511	L1306792509	
+visitInsn	RETURN	
+visitLabel	L1388549106	
+visitLocalVariable	this	Landroid/support/v7/app/AppCompatActivity;	null	L1496389025	L1388549106	0	
+visitLocalVariable	outState	Landroid/os/Bundle;	null	L1496389025	L1388549106	1	
+visitMaxs	2	2	
+visitEnd
+* visitEnd *	
+====finish modifying android/support/v7/app/AppCompatActivity====
+====start modifying android/support/v7/app/ActionBarActivity====
+* visit *	\ACC_PUBLIC/ \ACC_DEPRECATED/ \ACC_SUPER/ 	android/support/v7/app/ActionBarActivity	null	android/support/v7/app/AppCompatActivity	[]	
+* visitSource *	ActionBarActivity.java	null	
+* visitAnnotation *	Ljava/lang/Deprecated;	true	
+* visitMethod *	\ACC_PUBLIC/ 	<init>	()V	null	null	
+* visitEnd *	
+====revisit modified android/support/v7/app/ActionBarActivity====
+* visit *	\ACC_PUBLIC/ \ACC_DEPRECATED/ \ACC_SUPER/ 	android/support/v7/app/ActionBarActivity	null	android/support/v7/app/AppCompatActivity	[]	
+* visitSource *	ActionBarActivity.java	null	
+* visitAnnotation *	Ljava/lang/Deprecated;	true	
+* visitEnd *	
+====finish modifying android/support/v7/app/ActionBarActivity====
+====start modifying android/support/v4/app/SupportActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v4/app/SupportActivity	null	android/app/Activity	[]	
+* visitSource *	SupportActivity.java	null	
+* visitAnnotation *	Landroid/support/annotation/RestrictTo;	false	
+* visitInnerClass *	android/support/v4/app/SupportActivity$ExtraData	android/support/v4/app/SupportActivity	ExtraData	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/annotation/RestrictTo$Scope	android/support/annotation/RestrictTo	Scope	\ACC_ENUM/ \ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitField *	\ACC_PRIVATE/ 	mExtraDataMap	Landroid/support/v4/util/SimpleArrayMap;	Landroid/support/v4/util/SimpleArrayMap<Ljava/lang/Class<+Landroid/support/v4/app/SupportActivity$ExtraData;>;Landroid/support/v4/app/SupportActivity$ExtraData;>;	null	
+* visitMethod *	\ACC_PUBLIC/ 	<init>	()V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	putExtraData	(Landroid/support/v4/app/SupportActivity$ExtraData;)V	null	null	
+* visitMethod *	\ACC_PUBLIC/ 	getExtraData	(Ljava/lang/Class;)Landroid/support/v4/app/SupportActivity$ExtraData;	<T:Landroid/support/v4/app/SupportActivity$ExtraData;>(Ljava/lang/Class<TT;>;)TT;	null	
+* visitEnd *	
+====revisit modified android/support/v4/app/SupportActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	android/support/v4/app/SupportActivity	null	android/app/Activity	[]	
+* visitSource *	SupportActivity.java	null	
+* visitAnnotation *	Landroid/support/annotation/RestrictTo;	false	
+* visitInnerClass *	android/support/v4/app/SupportActivity$ExtraData	android/support/v4/app/SupportActivity	ExtraData	\ACC_PUBLIC/ \ACC_STATIC/ 	
+* visitInnerClass *	android/support/annotation/RestrictTo$Scope	android/support/annotation/RestrictTo	Scope	\ACC_ENUM/ \ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitField *	\ACC_PRIVATE/ 	mExtraDataMap	Landroid/support/v4/util/SimpleArrayMap;	Landroid/support/v4/util/SimpleArrayMap<Ljava/lang/Class<+Landroid/support/v4/app/SupportActivity$ExtraData;>;Landroid/support/v4/app/SupportActivity$ExtraData;>;	null	
+* visitEnd *	
+====finish modifying android/support/v4/app/SupportActivity====
+====start modifying com.xdja.inject.MainActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	com/xdja/inject/MainActivity	null	android/support/v7/app/AppCompatActivity	[]	
+* visitSource *	MainActivity.java	null	
+* visitInnerClass *	com/xdja/inject/R$layout	com/xdja/inject/R	layout	\ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* visitMethod *	\ACC_PUBLIC/ 	<init>	()V	null	null	
+* visitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	null	
+visitCode
+visitLabel	L1962075087	
+visitLineNumber	10	L1962075087	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v7/app/AppCompatActivity	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L242939811	
+visitLineNumber	11	L242939811	
+visitVarInsn	ALOAD	0	
+visitLdcInsn	2130968603	
+visitMethodInsn	INVOKEVIRTUAL	com/xdja/inject/MainActivity	setContentView	(I)V	
+visitLabel	L1462426629	
+visitLineNumber	12	L1462426629	
+visitInsn	RETURN	
+visitLabel	L149633891	
+visitLocalVariable	this	Lcom/xdja/inject/MainActivity;	null	L1962075087	L149633891	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1962075087	L149633891	1	
+visitMaxs	2	2	
+visitEnd
+* visitEnd *	
+====revisit modified com.xdja.inject.MainActivity====
+* visit *	\ACC_PUBLIC/ \ACC_SUPER/ 	com/xdja/inject/MainActivity	null	android/support/v7/app/AppCompatActivity	[]	
+* visitSource *	MainActivity.java	null	
+* visitInnerClass *	com/xdja/inject/R$layout	com/xdja/inject/R	layout	\ACC_PUBLIC/ \ACC_STATIC/ \ACC_FINAL/ 	
+* revisitMethod *	\ACC_PROTECTED/ 	onCreate	(Landroid/os/Bundle;)V	null	
+visitCode
+visitMethodInsn	INVOKESTATIC	com/xdja/inject/MontiorTrace	log	()V	
+visitLabel	L1801739562	
+visitLineNumber	10	L1801739562	
+visitVarInsn	ALOAD	0	
+visitVarInsn	ALOAD	1	
+visitMethodInsn	INVOKESPECIAL	android/support/v7/app/AppCompatActivity	onCreate	(Landroid/os/Bundle;)V	
+visitLabel	L855271434	
+visitLineNumber	11	L855271434	
+visitVarInsn	ALOAD	0	
+visitLdcInsn	2130968603	
+visitMethodInsn	INVOKEVIRTUAL	com/xdja/inject/MainActivity	setContentView	(I)V	
+visitLabel	L858865828	
+visitLineNumber	12	L858865828	
+visitInsn	RETURN	
+visitLabel	L1657816450	
+visitLocalVariable	this	Lcom/xdja/inject/MainActivity;	null	L1801739562	L1657816450	0	
+visitLocalVariable	savedInstanceState	Landroid/os/Bundle;	null	L1801739562	L1657816450	1	
+visitMaxs	2	2	
+visitEnd
+* visitEnd *	
+====finish modifying com.xdja.inject.MainActivity====
+E:\github\XdjaClassInject\app\build\intermediates\transforms\XdjaInectClass\debug\folders\1\1\710cd08438e38670fd171db5c6951e2aeee29c85\com\xdja\inject\MainActivity.class
+:app:transformClassesWithXdjaInectClassForDebug 花费时间 spend 839ms
+:app:transformClassesWithDexForDebug
+:app:transformClassesWithDexForDebug 花费时间 spend 3013ms
+:app:mergeDebugJniLibFolders
+:app:mergeDebugJniLibFolders 花费时间 spend 4ms
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug 花费时间 spend 14ms
+:app:processDebugJavaRes UP-TO-DATE
+:app:processDebugJavaRes 花费时间 spend 1ms
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformResourcesWithMergeJavaResForDebug 花费时间 spend 22ms
+:app:validateSigningDebug
+:app:validateSigningDebug 花费时间 spend 0ms
+:app:packageDebug
+:app:packageDebug 花费时间 spend 353ms
+:app:assembleDebug
+:app:assembleDebug 花费时间 spend 0ms
+
+BUILD SUCCESSFUL
+
+Total time: 7.688 secs
+Task spend time:6540ms
+    450ms :app:clean
+    995ms :app:mergeDebugResources
+     65ms :app:processDebugManifest
+    506ms :app:processDebugResources
+    185ms :app:compileDebugJavaWithJavac
+    839ms :app:transformClassesWithXdjaInectClassForDebug
+   3013ms :app:transformClassesWithDexForDebug
+    353ms :app:packageDebug
